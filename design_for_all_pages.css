@@ -183,6 +183,10 @@ footer {
     background-image: url(pictures/logos/IMG_20260110_201553.jpg);
 }
 
+#snapchat {
+    background-image: url():
+}
+
 #follow-text{
     margin-top: 70px;
     color: gold;
@@ -207,4 +211,5 @@ footer {
 
 .country {
     margin-bottom: 20px;
+
 }
