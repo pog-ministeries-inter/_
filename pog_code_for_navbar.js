@@ -6,7 +6,7 @@ const listOfItem = [
     "events-navbar"
 ];
 const dictionary = {
-    "about": "pog_vision.html", "home": "pog_home_page.html", 
+    "about": "pog_vision.html", "home": "_.html", 
     "address": "pog_addresses.html", "teachings-navbar": "pog_teaching.html",
     "prayers-navbar": "pog_prayer.html", "prophecies-navbar": "pog_prophecy.html",
     "mirracles-navbar": "pog_mirracles_and_healing.html", "events-navbar": "pog_events.html",
@@ -36,5 +36,6 @@ function addEvents() {
         }
     });
 }
+
 
 addEvents()            
