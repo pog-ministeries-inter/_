@@ -60,6 +60,10 @@ function facebookTvChannel() {
     window.open(" https://www.messenger.com/channel/benie.mike", "_blank");
 }
 
+function snapchat() {
+    window.open("https://www.snapchat.com/add/prophetemikepow?share_id=6uMHDQtWJmM&locale=en-ZA", "_blank");
+}
+
 // const listOfItem = [
 //     "facebook-template",
 //     "youtube-template",
@@ -112,3 +116,4 @@ function facebookTvChannel() {
 //         });
 //     }
 // });      
+
