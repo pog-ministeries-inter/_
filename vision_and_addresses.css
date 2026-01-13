@@ -1,0 +1,60 @@
+#main-title {
+    margin:0px;
+}
+
+#international {
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.titles {
+    font-size: 70px;
+    border-bottom: 5px solid;
+    margin: 20px 0px;
+    color: gold;
+}
+
+.topic {
+    font-size: 50px;
+    margin: 20px 10px;
+    color: gold;
+} 
+
+.verse {
+    border-bottom: 2px solid white;
+    font-size: 35px;
+    color: white;
+}
+
+.paragraphs {
+    font-size: 30px;
+    color: aliceblue;
+    margin: 0px 10px;
+}
+
+.paragraph-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+} 
+
+.backgrounds {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto 50px auto;
+    align-items: center;
+    justify-content: start;
+    border: 5px dotted gold;
+    width: 57%;
+    height: fit-content;
+    min-width: 500px;
+    padding-bottom: 20px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#reach-us-background {
+    height: fit-content;
+    min-height: 310px;
+}

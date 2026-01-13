@@ -1,0 +1,100 @@
+.navbar-container {
+    width: 15%;
+    height: 250px;
+}
+
+.menu-btn {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border: 5px solid gold;
+    top: 10%;
+    left: 10%;
+}
+
+.menu-btn-burger {
+    display: block;
+    width: 50px;
+    height: 7px;
+    background: gold;
+    border-radius: 5px;
+    transition: all .7s ease-in-out;
+}
+
+.menu-btn-burger::before, .menu-btn-burger::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 7px;
+    background: gold;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px blue;
+    transition:  all .7s ease-in-out;
+}
+
+.menu-btn-burger::before {
+    transform: translateY(-16px);
+}
+
+.menu-btn-burger::after {
+    transform: translateY(16px);
+}
+
+.menu-btn.open .menu-btn-burger {
+    transform: translate(-50px);
+    background: transparent;
+    box-shadow: none;
+}
+
+.menu-btn.open .menu-btn-burger::before {
+    transform: rotate(45deg) translate(35px, -35px);    
+}
+
+.menu-btn.open .menu-btn-burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+
+.menu-display {
+    display: none;
+    text-decoration: none;
+}
+
+.menu-display.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 130px;
+    left: 1%;
+    width: 30%;
+    height: 720px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid gold;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+.navigation-bar-topic {
+    height: 70px;
+    width: 90%;
+    border: 3px solid;
+    border-color: black grey;
+    border-radius: 2px;
+    background: none;
+    color: gold;
+    font-size: 35px;
+    font-weight: 700;
+    text-shadow: 2px 2px 0px black;
+    margin-bottom: 7px;
+}
+
+.navigation-bar-topic:hover {
+    background-image: url(pictures/gifs/giphy.gif);
+}

@@ -1,0 +1,59 @@
+#main-title {
+    margin:0px;
+}
+
+#international {
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.topic-background {
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 57%;
+    min-width: 500px;
+    margin: 0px auto 70px auto;
+    border-radius: 15px;
+    font-size: 100px;
+    color: gold;
+    text-shadow: 0 0 5px black;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 3px 5px black;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#teaching:hover, #prayer:hover,
+ #prophecy:hover,#mirracles:hover ,#events:hover{
+    background-image: url(pictures/gifs/giphy.gif);
+}
+
+#mirracles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("pictures/ministry_pic/IMG-20250712-WA0013.jpg");
+}
+
+#teaching {
+    background-image: url("pictures/ministry_pic/Screenshot_20250924-104350.png");
+    background-position-y: 43%;
+}
+
+#prayer {
+    background-image: url("pictures/ministry_pic/IMG-20250721-WA0012.jpg");
+}
+
+#prophecy {
+    background-image: url("pictures/ministry_pic/Screenshot_20251203-210021.png");
+}
+
+#events {
+    background-image: url("pictures/ministry_pic/IMG-20250712-WA0015.jpg");
+}
+

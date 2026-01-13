@@ -1,0 +1,210 @@
+.top-container {
+    display: flex;
+    align-items:start;
+    margin-bottom: 70px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.ministry-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    width: 80%;
+}
+
+
+#ministry-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+    margin:10px 20px 0px 0px;
+    text-shadow: 3px 3px black;
+    opacity: 1.0;
+}
+
+.logo {
+    width: 200px;
+    min-width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-color: gold;
+    background-image: url(pictures/logos/IMG-20250503-WA0009.jpg);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+iframe {
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 378px;
+    min-width: 672px;
+    margin: 100px auto;
+    border-radius: 15px;
+    background-color: black;
+    font-size: 100px 
+}
+
+.home-page,.contact-us-page ,.teaching-page,.prayer-page,.prophecy-page,
+.mirracles-page,.events-page, .vision-page, .addresses-page{
+    background-color: black;
+    color: gold;
+    text-shadow: 5px 5px 0px black;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    border-width: 3px; 
+    background-attachment: fixed;
+}
+
+.home-page {
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    border-width: 3px; 
+    background-attachment: fixed;
+}
+
+.bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+body {
+    margin: 0px;
+}
+
+#top-video-frame {
+    margin-top: 100px;
+}
+
+footer {
+    padding-top: 1px;
+    background-color: black;
+    color: blue;
+    margin-top: 70px;
+    text-shadow: 0 0 2px black;
+    height: fit-content;
+} 
+
+#social-media-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: blanchedalmond; */
+    
+}
+
+.social-media {
+    display: flex;
+    justify-content: start;
+    padding-bottom: 20px;
+    min-width: 900px;
+}
+
+.social-media-2 {
+    padding-left: 3%;
+}
+
+.social-media-template {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 10px 5%;
+}
+
+.social-media-templates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 2px black;
+}
+
+.social-media-templates:hover {
+    color: blue;
+    height: 150px;
+    width: 150px;
+}
+
+.click-here {
+    color: gold;
+    text-decoration: none;
+}
+
+#facebook {
+    background-image: url(pictures/logos/images.png);
+}
+
+#instagram {
+    background-image: url(pictures/logos/images\ \(2\).jpeg);
+}
+
+#youtube {
+    background-image: url(pictures/logos/images\ \(4\).png);
+}
+
+#x {
+    background-image: url(pictures/logos/X_logo.jpg);
+}
+
+#tiktok {
+    background-image: url(pictures/logos/images4.png);
+}
+
+#whatsapp {
+    background-image: url(pictures/logos/images2.jpg);
+}
+
+#linkedin {
+    background-image: url(pictures/logos/images\ \(5\).png);
+}
+
+#telegram {
+    background-image: url(pictures/logos/telegram-logo-png_seeklogo-508261.png);
+}
+
+#facebook-tv-channel {
+    background-image: url(pictures/logos/IMG_20260110_201553.jpg);
+}
+
+#follow-text{
+    margin-top: 70px;
+    color: gold;
+}
+
+.contact-us-statement, .visit-statement {
+    color: white;
+    margin-left: 0px 0px 10px 1px;
+    font-size: 30px;
+}
+
+.visit-statement {
+    font-size: 25px;
+}
+
+.contact-number, .address { 
+    margin: 2px 1px;
+    color: red;
+    font-size: 25px;
+    padding: 0px 15px;
+}
+
+.country {
+    margin-bottom: 20px;
+}
