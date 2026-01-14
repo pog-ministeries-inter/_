@@ -184,7 +184,7 @@ footer {
 }
 
 #snapchat {
-    background-image: url(pictures/logos/IMG_20260114_230207.jpg):
+    background-image: url(pictures/logos/IMG_20260114_230207.jpg);
 }
 
 #follow-text{
@@ -213,5 +213,6 @@ footer {
     margin-bottom: 20px;
 
 }
+
 
 
